@@ -115,15 +115,8 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-# fonts
-assets/fonts/*
-!assets/fonts/fontawesome/
+# config
+config.json
 
-# bundles
-assets/scripts/client/
-
-# media
-assets/media/**
-assets/.gitignore
-
-assets/desktop.ini
+# exported json
+utils/json
